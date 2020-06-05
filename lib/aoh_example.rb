@@ -14,7 +14,7 @@ def assembled_aoh
     JOELLE_VD, 
     PAT_M, 
     KATE_G, 
-    BRUCE_G,
+    BRUCE_G
     ]
 end
 
@@ -27,18 +27,18 @@ def literal_aoh
     { name:  "Joelle van Dyne", occupation: "Radio Personality" },
     { name:  "Pat Monteseian", occupation: "Staff" },
     { name:  "Kate Gompert", occupation: "None" },
-    { name:  "Bruce Green", occupation: "Fan of Mildred" },
+    { name:  "Bruce Green", occupation: "Fan of Mildred" }
     ]
   
 end
 
 def aoh_lookup(aoh, row, key)
-    infinite_jest = [
+  infinite_jest = [
     { name:  "Don Gately", occupation: "Live-in Staff" },
     { name:  "Joelle van Dyne", occupation: "Radio Personality" },
     { name:  "Pat Monteseian", occupation: "Staff" },
     { name:  "Kate Gompert", occupation: "None" },
-    { name:  "Bruce Green", occupation: "Fan of Mildred" },
+    { name:  "Bruce Green", occupation: "Fan of Mildred" }
     ]
   infinite_jest[1][:name]
 end
@@ -46,12 +46,12 @@ end
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
-    infinite_jest = [
+  infinite_jest = [
     { name:  "Don Gately", occupation: "Live-in Staff" },
     { name:  "Joelle van Dyne", occupation: "Radio Personality" },
     { name:  "Pat Monteseian", occupation: "Staff" },
     { name:  "Kate Gompert", occupation: "None" },
-    { name:  "Bruce Green", occupation: "Fan of Mildred" },
+    { name:  "Bruce Green", occupation: "Fan of Mildred" }
     ]
   infinite_jest[1][:name] = "Barack Obama"
   infinite_jest[1][:name]
