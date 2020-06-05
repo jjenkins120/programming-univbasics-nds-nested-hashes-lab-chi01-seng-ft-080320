@@ -40,7 +40,7 @@ def aoh_lookup(aoh, row, key)
     { name:  "Kate Gompert", occupation: "None" },
     { name:  "Bruce Green", occupation: "Fan of Mildred" },
     ]
-  infinite_jest[1][name:]
+  infinite_jest[1][name]
 end
 
 def aoh_update(aoh, row, key, new_value)
@@ -53,6 +53,6 @@ def aoh_update(aoh, row, key, new_value)
     { name:  "Kate Gompert", occupation: "None" },
     { name:  "Bruce Green", occupation: "Fan of Mildred" },
     ]
-  infinite_jest[1][name:] = "Barack Obama"
-  infinite_jest[1][name:]
+  infinite_jest[1][name] = "Barack Obama"
+  infinite_jest[1][name]
 end
